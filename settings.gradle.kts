@@ -36,7 +36,10 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Platform Samples"
+rootProject.name = "PlatformSamples"
+
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+
 include(":app")
 
 include(":shared")

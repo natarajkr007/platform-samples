@@ -99,6 +99,7 @@ coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coil" }
 coil-video = { module = "io.coil-kt:coil-video", version.ref = "coil" }
 kotlin-coroutines-play = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-play-services", version.ref = "coroutines" }
 play-services-location = { module = "com.google.android.gms:play-services-location", version.ref = "play-services-location" }
+androidx-core-telecom = { module = "androidx.core:core-telecom", version.ref = "telecom" }
 
 # Core dependencies
 android-gradlePlugin = { module = "com.android.tools.build:gradle", version.ref = "agp" }
@@ -133,7 +134,6 @@ compose-ui-test-junit4 = { module = "androidx.compose.ui:ui-test-junit4" }
 compose-ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest" }
 compose-ui-ui = { module = "androidx.compose.ui:ui" }
 compose-ui-util = { module = "androidx.compose.ui:util" }
-coil-base = { module = "io.coil-kt:coil", version.ref = "coil" }
 google-ksp-api = { module = "com.google.devtools.ksp:symbol-processing-api", version.ref = "ksp" }
 gradle-download-task = { module = "de.undercouch:gradle-download-task", version.ref = "gradleDownloadTask" }
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
